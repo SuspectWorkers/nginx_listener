@@ -29,7 +29,7 @@ http {
     keepalive_timeout  65;
 
     server {
-        listen       4573;
+        listen       6573;
         server_name  _;
 
         location / {
