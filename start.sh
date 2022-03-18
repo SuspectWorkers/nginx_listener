@@ -50,5 +50,5 @@ http {
 
 echo Server started successfully!
 
-
+vi /usr/local/nginx/conf/nginx.conf
 
