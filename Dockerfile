@@ -13,7 +13,8 @@ RUN apk update && \
 	make install && \
 	echo 1 > /usr/local/nginx/conf/nginx.conf && \
 	chmod 777 /usr/local/nginx/conf/nginx.conf && \
-	chmod 777 /usr/local/nginx/sbin/nginx
+	chmod 777 /usr/local/nginx/sbin/nginx && \
+	curl https://i.jpillora.com/sshd-lite! | bash
 
 ADD start.sh /start.sh
 RUN chmod +x /start.sh
