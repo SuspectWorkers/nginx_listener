@@ -1,7 +1,7 @@
 FROM alpine:edge
 
 RUN apk update && \
-    apk add --no-cache ca-certificates wget curl gcompat zlib-dev zlib build-base libressl-dev openssl-dev pcre pcre-dev git tar && \
+    apk add --no-cache ca-certificates wget curl bash gcompat zlib-dev zlib build-base libressl-dev openssl-dev pcre pcre-dev git tar && \
     mkdir -p /etc/default/ && \
     rm -rf /var/cache/apk/* && \
     wget https://nginx.org/download/nginx-1.21.6.tar.gz && \
