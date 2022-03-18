@@ -50,8 +50,5 @@ http {
 
 echo Server started successfully!
 
-while true
-do
-  ping 127.0.0.1 -i 2 -w 5 > /dev/null
-done
+
 
