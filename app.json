@@ -1,0 +1,14 @@
+{
+    "name": "NginxStreamListener",
+    "description": "nsl project",
+    "keywords": ["ultra nsl project"],
+    "env": {
+        "onevv": {
+            "description": "so imp",
+            "value": "2"
+        }
+    },
+    "website": "https://github.com/SuspectWorkers/nginx_listener",
+    "repository": "https://github.com/SuspectWorkers/nginx_listener",
+    "stack": "container"
+}
